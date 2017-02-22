@@ -101,7 +101,7 @@
     <script type="text/javascript">
 
   		var tiles = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-  				maxZoom: 18,
+  				maxZoom: 15,
   				attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors, Points &copy 2017 LINZ'
   			}),
   			latlng = L.latLng(-2.811371, 116.015625);
